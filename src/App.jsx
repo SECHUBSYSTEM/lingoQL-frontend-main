@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
-import Chats from "./Pages/Chats";
+import Routing from "./Routing/Routing";
 
 function App() {
   return (
     <>
       <Header />
-      <Chats />
+      <Routing />
     </>
   );
 }

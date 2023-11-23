@@ -1,7 +1,13 @@
 import React from "react";
+import MessageBox from "../Components/MessageBox/MessageBox";
+import "../Styles/Styles.css";
 
 const Chats = () => {
-  return <div>Chats</div>;
+  return (
+    <>
+      <MessageBox />
+    </>
+  );
 };
 
 export default Chats;
